@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,28 +9,89 @@
   </head>
   <body>
     <!-- Positioning -->
+    <div class="relative h-12 bg-red-200 w-1/2">
+      <p>Parent Element</p>
+      <div class="absolute buttom-0 right-0 bg-red-500">
+        <p>Absolute</p>
+      </div>
+    </div>
 
     <!-- Top left corner -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute left-0 top-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
 
     <!-- Top right corner -->
+    <div class="relative h-32 w-32 bg-yellow-100 mt-1">
+      <div class="absolute right-0 top-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
 
     <!-- Bottom left corner -->
+    <div class="relative h-32 w-32 bg-yellow-100 mt-1">
+      <div class="absolute left-0 bottom-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
 
     <!-- Bottom right corner -->
+    <div class="relative h-32 w-32 bg-yellow-100 mt-1">
+      <div class="absolute right-0 bottom-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
 
     <!-- Span top edge -->
+    <div class="relative h-32 w-32 bg-yellow-100 mt-1">
+      <div class="absolute inset-x-0 top-0 h-16 bg-yellow-300"></div>
+    </div>
 
     <!-- Span left edge -->
+    <div class="relative h-32 w-32 bg-yellow-100 mt-1">
+      <div class="absolute inset-y-0 left-0 w-16 bg-yellow-300"></div>
+    </div>
 
     <!-- Span right edge -->
+    <div class="relative h-32 w-32 bg-yellow-100 mt-1">
+      <div class="absolute inset-y-0 right-0 w-16 bg-yellow-300"></div>
+    </div>
 
     <!-- Span bottom edge -->
+    <div class="relative h-32 w-32 bg-yellow-100 mt-1">
+      <div class="absolute inset-x-0 bottom-0 h-16 bg-yellow-300"></div>
+    </div>
 
     <!-- Display Classes -->
+    <div>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque eos
+      <span class="inline font-bold">this is inline</span> tempore voluptatum
+      molestias quod odio minima, quas, id velit enim nisi. Necessitatibus,
+      voluptatem at amet non atque
+      <span class="inline-block font-bold">This is inline block</span> corrupti
+      tenetur dolores id exercitationem.
+      <span class="block font-bold">This is block</span> Nulla voluptatem
+      inventore culpa qui blanditiis perspiciatis,
+      <span class="hidden font-bold">This is hidden</span> accusamus, molestias
+      voluptate eum similique dolor doloribus. Hic atque amet velit?
+    </div>
 
     <!-- Z-Index -->
+    <div class="relative h-36">
+      <div class="absolute left-10 w-24 h-24 bg-blue-300 z-40">1</div>
+      <div class="absolute w-24 left-20 h-24 bg-blue-400">2</div>
+      <div class="absolute w-24 h-24 left-40 bg-blue-500 z-10">3</div>
+      <div class="absolute w-24 h-24 bg-blue-600 left-60 z-20">4</div>
+      <div class="absolute w-24 h-24 bg-blue-700 left-80 z-30">5</div>
+    </div>
 
     <!-- Floats -->
+    <div class="w-1/2">
+      <img
+        class="h-48 w-48 float-left m-2"
+        src="../assets/img/img1.jpg"
+        alt=""
+      />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolorum
+        modi assumenda eum nesciunt voluptatibus labore, ut vitae tenetur autem
+        eveniet vel dolore. Odit eaque consequatur ducimus ullam aliquid illo?
+      </p>
+    </div>
   </body>
 </html>
 

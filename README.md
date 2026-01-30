@@ -49,12 +49,37 @@ As part of this learning journey, I built 5 responsive components demonstrating 
 
 | Project | Description | Preview |
 |---------|-------------|---------|
-| **Email Subscribe** | Responsive email subscription card with clean design, featuring smooth hover effects and adaptive mobile-to-desktop layouts | ![Email Subscribe](bonus-5-mini-projects/email-subscribe/images/email-subscribe.png) |
-| **Image Gallery** | Modern responsive image gallery showcasing grid layouts and image handling techniques | ![Image Gallery](bonus-5-mini-projects/image-gallery/images/image-gallery.png) |
-| **Login Modal** | Clean and accessible login modal with form validation styling and responsive design | ![Login Modal](bonus-5-mini-projects/login-modal/images/login-modal.png) |
-| **Pricing Cards** | Professional pricing cards layout featuring three subscription tiers with hover effects and responsive design | ![Pricing Cards](bonus-5-mini-projects/pricing-cards/images/pricing-cards.png) |
-| **Product Modal** | Interactive product card with image hover effects, price comparison, animated cart button, and live stock indicator | ![Product Modal](bonus-5-mini-projects/product-modal/images/product-modal.png) |
+| **Email Subscribe** | Responsive email subscription card with hover effects | ![Email Subscribe](bonus-5-mini-projects/email-subscribe/images/email-subscribe.png) |
+| **Image Gallery** | Responsive image gallery with grid layout | ![Image Gallery](bonus-5-mini-projects/image-gallery/images/image-gallery.png) |
+| **Login Modal** | Login modal with form validation styling | ![Login Modal](bonus-5-mini-projects/login-modal/images/login-modal.png) |
+| **Pricing Cards** | Three-tier pricing cards with hover effects | ![Pricing Cards](bonus-5-mini-projects/pricing-cards/images/pricing-cards.png) |
+| **Product Modal** | Product card with image effects and animated cart button | ![Product Modal](bonus-5-mini-projects/product-modal/images/product-modal.png) |
+
+## 🎨 Full-Scale Side Projects
+
+Building on the fundamentals, I developed 6 complete, production-ready websites showcasing advanced Tailwind CSS implementations. Each project is deployed live and maintained in its own repository:
+
+| Project | Description | Preview | Links |
+|---------|-------------|---------|-------|
+| **Bookmark Manager** | Landing page with tabbed navigation, FAQ accordion, and mobile menu | ![Bookmark](tailwind-side-projects-preview/bookmark.png) | [Live Demo](https://bookmark-manager-website-project.vercel.app/) \| [Repository](https://github.com/51348761z/bookmark-manager-website-project) |
+| **Clipboard Landing** | Landing page with hero section, feature showcases, and company logos | ![Clipboard](tailwind-side-projects-preview/clipboard.png) | [Live Demo](https://clipboard-website-project.vercel.app/) \| [Repository](https://github.com/51348761z/clipboard-website-project) |
+| **Fylo Storage** | File storage page with dark/light mode toggle and testimonials | ![Fylo](tailwind-side-projects-preview/fylo.png) | [Live Demo](https://fylo-website-project.vercel.app/) \| [Repository](https://github.com/51348761z/fylo-website-project) |
+| **Loopstudios VR** | VR showcase with image grid and interactive mobile menu | ![Loopstudios](tailwind-side-projects-preview/loopstudios.png) | [Live Demo](https://loopstudios-project-iota.vercel.app/) \| [Repository](https://github.com/51348761z/loopstudios-project) |
+| **Shortly URL Shortener** | URL shortening landing page with statistics and feature cards | ![Shortly](tailwind-side-projects-preview/shortly.png) | [Live Demo](https://shortly-website-project.vercel.app) \| [Repository](https://github.com/51348761z/shortly-website-project) |
+| **Testimonial Grid** | Testimonial showcase with asymmetric CSS Grid layout | ![Testimonial Grid](tailwind-side-projects-preview/testimonial-grid.png) | [Live Demo](https://testimonial-grid-website-project.vercel.app/) \| [Repository](https://github.com/51348761z/testimonial-grid-website-project) |
+
+### Key Technologies & Techniques
+
+- **Tailwind CSS v4** - Latest version with modern features
+- **Responsive Design** - Mobile-first approach with custom breakpoints
+- **JavaScript Interactions** - Vanilla JS for dynamic features (menu toggles, theme switching)
+- **CSS Grid & Flexbox** - Advanced layout techniques
+- **Custom Animations** - Smooth transitions and hover effects
 
 ---
 
-*This project was created as part of my frontend development learning journey and serves as a portfolio piece demonstrating practical Tailwind CSS proficiency.*
+## 📚 Course Attribution
+
+This project was created as part of my learning journey through [Brad Traversy's Tailwind CSS Course](https://github.com/bradtraversy/tailwind-course-projects). The exercises, projects, and structure are based on the comprehensive "Tailwind From Scratch" curriculum.
+
+*This repository serves as a portfolio piece demonstrating practical Tailwind CSS proficiency through hands-on implementation and practice.*
